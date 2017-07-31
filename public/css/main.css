@@ -1,0 +1,49 @@
+* {
+  box-sizing: border-box; }
+  *:before, *:after {
+    box-sizing: border-box; }
+
+a {
+  background-color: transparent;
+  text-decoration: none; }
+  a:hover, a:focus, a:active {
+    outline: 0; }
+
+img {
+  max-width: 100%;
+  vertical-align: middle;
+  height: auto; }
+
+input[type='text']:focus::-webkit-input-placeholder,
+input[type='tel']:focus::-webkit-input-placeholder,
+input[type='email']:focus::-webkit-input-placeholder,
+input[type='password']:focus::-webkit-input-placeholder,
+input[type='search']:focus::-webkit-input-placeholder,
+textarea:focus::-webkit-input-placeholder {
+  color: transparent !important; }
+
+input[type='text']:focus::-moz-placeholder,
+input[type='tel']:focus::-moz-placeholder,
+input[type='email']:focus::-moz-placeholder,
+input[type='password']:focus::-moz-placeholder,
+input[type='search']:focus::-moz-placeholder,
+textarea:focus::-moz-placeholder {
+  color: transparent !important; }
+
+input[type='text']:focus:-moz-placeholder,
+input[type='tel']:focus:-moz-placeholder,
+input[type='email']:focus:-moz-placeholder,
+input[type='password']:focus:-moz-placeholder,
+input[type='search']:focus:-moz-placeholder,
+textarea:focus:-moz-placeholder {
+  color: transparent !important; }
+
+input[type='text']:focus:-ms-input-placeholder,
+input[type='tel']:focus:-ms-input-placeholder,
+input[type='email']:focus:-ms-input-placeholder,
+input[type='password']:focus:-ms-input-placeholder,
+input[type='search']:focus:-ms-input-placeholder,
+textarea:focus:-ms-input-placeholder {
+  color: transparent !important; }
+
+/*# sourceMappingURL=main.css.map */

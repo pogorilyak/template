@@ -1,0 +1,28 @@
+{
+  "name": "front_end-template",
+  "version": "1.1.0",
+  "description": "CSS Template for new project",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IvanKhartov/front-end_template-smacss"
+  },
+  "author": "Zmey",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/IvanKhartov/front-end_template-smacss/issues"
+  },
+  "devDependencies": {
+    "autoprefixer": "^6.5.1",
+    "gulp": "^3.9.1",
+    "gulp-concat": "^2.6.0",
+    "gulp-cssnano": "^2.1.2",
+    "gulp-jshint": "^2.0.1",
+    "gulp-postcss": "^6.2.0",
+    "gulp-sass": "^2.3.2",
+    "gulp-sourcemaps": "^2.1.1",
+    "gulp-uglify": "^2.0.0",
+    "gulp-watch": "^4.3.10",
+    "jshint": "^2.9.4",
+    "jshint-stylish": "^2.2.1"
+  }
+}

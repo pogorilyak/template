@@ -1,0 +1,23 @@
+{
+  "name": "front_end-template",
+  "description": "CSS Template for new project",
+  "authors": [
+    "Zmey"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "public/js/libs",
+    "test",
+    "tests"
+  ],
+  "devDependencies": {
+    "jquery": "^3.1.0"
+  },
+  "dependencies": {
+    "swiper": "^3.4.2"
+  }
+}
+

@@ -1,0 +1,51 @@
+// Base style (tag only)
+* {
+  box-sizing: border-box;
+
+  &:before,
+  &:after {
+    box-sizing: border-box;
+  }
+}
+
+html,
+body {
+  //@extend %noIndent;
+}
+
+body {
+  //background: $base-bg;
+  //color: $base-text;
+}
+
+a {
+  background-color: transparent;
+  //color: $base-link;
+  text-decoration: none;
+
+  &:hover, &:focus, &:active {
+    //color: darken($base-link, 10%);
+    outline: 0;
+  }
+}
+
+img {
+  max-width: 100%;
+  vertical-align: middle;
+  height: auto;
+}
+
+// disable placeholder - onfocus/onblur effect
+input[type='text'],
+input[type='tel'],
+input[type='email'],
+input[type='password'],
+input[type='search'],
+textarea {
+  &:focus {
+    &::-webkit-input-placeholder {color: transparent !important;}
+    &::-moz-placeholder          {color: transparent !important;;}
+    &:-moz-placeholder           {color: transparent !important;;}
+    &:-ms-input-placeholder      {color: transparent !important;;}
+  }
+}
